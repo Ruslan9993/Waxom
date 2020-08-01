@@ -1,0 +1,133 @@
+$RalewayRegular: RalewayRegular;
+$li-hover: #c7b299;
+$goldenBrown: #c7b299;
+$metallic: #555555;
+
+
+@keyframes fade {
+  0% {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes line-fill {
+  0% {
+    background-color: linear-gradient(to right, #c7b299 1%, #f1eee9 5%)
+  }
+  
+15% {
+  background-color: linear-gradient(to right, #c7b299 5%, #f1eee9 15%)
+}
+  
+30% {
+  background-color: linear-gradient(to right, #c7b299 15%, #f1eee9 25%)
+}
+  
+45% {
+  background-color: linear-gradient(to right, #c7b299 25%, #f1eee9 35%)
+}
+  
+60% {
+  background-color: linear-gradient(to right, #c7b299 35%, #f1eee9 45%)
+}
+  
+80% {
+  background-color: linear-gradient(to right, #c7b299 45%, #f1eee9 55%)
+}
+  
+90% {
+  background-color: linear-gradient(to right, #c7b299 55%, #f1eee9 65%)
+}
+  
+100%{
+  background-color: linear-gradient(to right, #c7b299 65%, #f1eee9 95%)
+}
+  
+}
+
+
+@keyframes fill-up {
+  from {
+    height: 0;
+    background-color: rgba(17, 17, 17, .4);
+  }
+
+  to {
+    height: 100%;
+    background-color: rgba(17, 17, 17, .7);
+  }
+}
+
+@keyframes fill-to-right {
+  from {
+    width: 0;
+    background-color: $goldenBrown;
+  }
+
+  to {
+    width: 78px;
+    background-color: $goldenBrown;
+  }
+}
+	
+
+@font-face {
+  font-family: myfont;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/MyFont/MyFont.eot);
+  src: url(../fonts/MyFont/MyFont.eot?#iefix) format("embedded-opentype"), url(../fonts/MyFont/MyFont.woff) format("woff"), url(../fonts/MyFont/MyFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: MontserratLight;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/MontserratLight/MontserratLight.eot);
+  src: url(../fonts/MontserratLight/MontserratLight.eot?#iefix) format("embedded-opentype"), url(../fonts/MontserratLight/MontserratLight.woff) format("woff"), url(../fonts/MontserratLight/MontserratLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: MontserratRegular;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Montserrat/Montserrat.eot);
+  src: url(../fonts/Montserrat/Montserrat.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat/Montserrat.woff) format("woff"), url(../fonts/Montserrat/Montserrat.ttf) format("truetype");
+}
+@font-face {
+  font-family: RalewayRegular;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/RalewayRegular/RalewayRegular.eot);
+  src: url(../fonts/RalewayRegular/RalewayRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/RalewayRegular/RalewayRegular.woff) format("woff"), url(../fonts/RalewayRegular/RalewayRegular.ttf) format("truetype");
+}
+@font-face {
+  font-family: RalewayMedium;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/RalewayMedium/RalewayMedium.eot);
+  src: url(../fonts/RalewayMedium/RalewayMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/RalewayMedium/RalewayMedium.woff) format("woff"), url(../fonts/RalewayMedium/RalewayMedium.ttf) format("truetype");
+}
+@font-face {
+  font-family: RalewayExtraBold;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/RalewayExtraBold/RalewayExtraBold.eot);
+  src: url(../fonts/RalewayExtraBold/RalewayExtraBold.eot?#iefix) format("embedded-opentype"), url(../fonts/RalewayExtraBold/RalewayExtraBold.woff) format("woff"), url(../fonts/RalewayExtraBold/RalewayExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: RalewaySemiBold;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/RalewaySemiBold/RalewaySemiBold.eot);
+  src: url(../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/RalewaySemiBold/RalewaySemiBold.woff) format("woff"), url(../fonts/RalewaySemiBold/RalewaySemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: RalewayBold;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/RalewayBold/RalewayBold.eot);
+  src: url(../fonts/RalewayBold/RalewayBold.eot?#iefix) format("embedded-opentype"), url(../fonts/RalewayBold/RalewayBold.woff) format("woff"), url(../fonts/RalewayBold/RalewayBold.ttf) format("truetype");
+}
+

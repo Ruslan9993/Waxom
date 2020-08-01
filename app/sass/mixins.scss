@@ -1,0 +1,26 @@
+@mixin link ($color, $hover) {
+  color: $color;
+  &:hover {
+    color: $hover
+  }
+}
+
+@mixin links($color, $hover-color) {
+  a {
+    text-decoration: none;
+    color: $color;
+    transition: .3s all;
+  
+    &:hover {
+      color: $hover-color;
+      opacity: .4;
+    }
+  }
+}
+
+@mixin position($t, $r, $b, $l) {
+  top: $t;
+  bottom: $b;
+  right: $r;
+  left: $l;
+}

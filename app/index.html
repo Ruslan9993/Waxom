@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000">
+  <title>WAXOM</title>
+  <link rel="stylesheet" href="css/app.min.css">
+  <link rel="stylesheet" href="css/myfont.css">
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+ 
+<!--   
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/responsiveCarousel.min.js"></script> -->
+
+</head>
+<body>
+  <!-- <div class="hide__menu">
+    <ul>
+      <li>1 Unique and Modern Design</li>
+      <li>1 Unique and Modern Design</li>
+      <li>1 Unique and Modern Design</li>
+      <li>1 Unique and Modern Design</li>
+      <li>1 Unique and Modern Design</li>
+      <li>1 Unique and Modern Design</li>
+    </ul>
+  </div> -->
+
+  <div class="overlay">
+    <nav class="overlayMenu">  
+        <ul role="menu">
+            <li><a href="#" role="menuitem">About Us</a></li>
+            <li><a href="#" role="menuitem">Portfolio</a></li>
+            <li><a href="#" role="menuitem">Features</a></li>
+            <li><a href="#" role="menuitem">Blog</a></li>
+            <li><a href="#" role="menuitem">Shortcodes</a></li>
+            
+        </ul>
+    </nav>
+</div>
+
+<div class="navBurger" role="navigation" id="navToggle">
+
+</div> 
+  <header class="header">
+    <div class="container">
+      <div class="header__block">
+        <div class="header__logo">
+          <div class="header__icon-element i-logos" >
+            
+          </div>
+          <span class="header__icon-text">
+            <a href="#">Waxom</a>
+          </span>
+        </div>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Shortcodes</a></li>
+						<li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <div class="i-cart header__icon"></div>
+					<div class="i-search header__icon"></div>
+        </div>
+       
+      </div>
+    </div>
+  </header>
+
+  <div class="slider__block">
+    <section class="slider first-swip">
+   
+      <img class="image__slider" src="images/main-photo.jpg" alt="">
+        <div class="slider__text">
+          <div class="container">
+            <h2>Unique and Modern Design</h2>
+            <h1>Portfolio PSD Template</h1>
+            <p>
+              Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+            </p>
+            <button class="btn">get started</button>
+          </div>
+        </div>
+        
+    
+        <div class="slider__button-prev" onclick="minusSlide()">
+          <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+            <defs id="defs14"></defs>
+            <path class="prev-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+          </svg>
+        </div>
+        <div class="slider__button-next" onclick="plusSlide()">
+          <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+            <defs id="defs14"></defs>
+            <path class="next-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+          </svg>
+        </div>
+        
+      </section>
+
+      <section class="slider second-swip">
+   
+        <img class="image__slider" src="images/california2.jpg" alt="">
+          <div class="slider__text">
+            <div class="container">
+              <h2>Unique and Modern Design</h2>
+              <h1>Portfolio PSD Template</h1>
+              <p>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <button class="btn">get started</button>
+            </div>
+          </div>
+      
+          <div class="slider__button-prev" onclick="minusSlide()">
+            <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+              <defs id="defs14"></defs>
+              <path class="prev-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+            </svg>
+          </div>
+          <div class="slider__button-next" onclick="plusSlide()">
+            <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+              <defs id="defs14"></defs>
+              <path class="next-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+            </svg>
+          </div>
+
+         
+        </section>
+
+         <!-- two -->
+
+        <section class="slider third-swip">
+   
+          <img class="image__slider" src="images/switzerland2.jpg" alt="">
+            <div class="slider__text">
+              <div class="container">
+                <h2>Unique and Modern Design</h2>
+                <h1>Portfolio PSD Template</h1>
+                <p>
+                  Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+                </p>
+                <button class="btn">get started</button>
+              </div>
+            </div>
+        
+            <div class="slider__button-prev" onclick="minusSlide()">
+              <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+                <defs id="defs14"></defs>
+                <path class="prev-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+              </svg>
+            </div>
+            <div class="slider__button-next" onclick="plusSlide()">
+              <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+                <defs id="defs14"></defs>
+                <path class="next-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+              </svg>
+            </div>
+
+           
+          </section>
+
+          <!-- three -->
+
+          <section class="slider forth-swip">
+   
+            <img class="image__slider" src="images/grandCanyon2.jpg" alt="">
+              <div class="slider__text">
+                <div class="container">
+                  <h2>Unique and Modern Design</h2>
+                  <h1>Portfolio PSD Template</h1>
+                  <p>
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+                  </p>
+                  <button class="btn">get started</button>
+                </div>
+              </div>
+          
+              <div class="slider__button-prev" onclick="minusSlide()">
+                <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+                  <defs id="defs14"></defs>
+                  <path class="prev-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+                </svg>
+              </div>
+              <div class="slider__button-next" onclick="plusSlide()">
+                <svg class="svg-image" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.572227 70.671272" id="svg10" version="1.1">
+                  <defs id="defs14"></defs>
+                  <path class="next-svg" d="M 18.549267,52.935401 0,35.199534 14.110714,21.631857 C 33.989641,2.517952 37.662399,-0.72263259 38.491882,0.11962055 38.893133,0.52704865 31.175396,8.5874302 21.341356,18.03158 L 3.461282,35.202761 21.091356,52.061065 c 16.264552,15.55256 19.027841,18.610204 16.818626,18.610204 -0.446296,0 -9.158618,-7.98114 -19.360715,-17.735868 z"></path>
+                </svg>
+              </div>
+    
+             
+            </section>   
+  </div>
+
+  <div class="slider-dots">
+    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+</div>
+
+
+  <section class="line">
+    <div class="container">
+
+      <div class="line__block">
+      <div class="line__element">
+        <div class="i-pen"></div>
+        <h3>Web & App Design</h3>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+       </div>
+       <div class="line__element">
+        <div class="i-development"></div>
+        <h3>Development</h3>
+        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+       </div>
+       <div class="line__element">
+        <div class="i-customization"></div>
+        <h3>Customization</h3>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+       </div>
+       <div class="line__element">
+        <div class="i-marketing"></div>
+        <h3>Marketing</h3>
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+       </div>
+      </div>
+      
+    </div>
+   
+  </section>
+  
+  <section class="ideas">
+
+    <div class="container">
+    <div class="ideas__discription">
+      <h2>Waxom is Realization of your Ideas.</h2>
+      <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium. </p>
+    </div>
+
+    <div class="ideas__img">
+      <img src="images/windows.jpg" alt="">
+    </div>
+    </div>
+
+  </section>
+
+  <section class="wordpress">
+    <div class="container">
+      <div class="wordpress__block">
+        <div class="wordpress__text">
+          <h4><span>Waxom</span> Multipurpose WordPress Theme</h4>
+          <p>Don't Forget to Rate the Template. Thanks so much!</p>
+        </div>
+        <div class="wordpress__btn">
+          <button class="btn">purchase now</button>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+
+
+  <section class="projects">
+    <div class="container">
+      <div class="projects__title">
+        <h3>Our Latest Projects.</h3>
+        <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      </div>
+
+      <div class="projects__buttons">
+        <button>All</button>
+        <button>Web Design</button>
+        <button>Mobile App</button>
+        <button>Illustration</button>
+        <button>Photography</button>
+      </div>
+
+      <div class="projects__carts">
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/phone.jpg" alt="">
+            <div class="projects__links">
+              <a href="">
+                <svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/rock.jpg" alt="">
+            <div class="projects__links">
+              <a href=""><svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/usus.jpg" alt="">
+            <div class="projects__links">
+              <a href=""><svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/claritas.jpg" alt="">
+            <div class="projects__links">
+              <a href=""><svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/book.jpg" alt="">
+            <div class="projects__links">
+              <a href=""><svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+        <div class="projects__cart">
+          <div class="projects__img">
+            <img src="images/rock2.jpg" alt="">
+            <div class="projects__links">
+              <a href=""><svg width="24.625" height="24.62" viewBox="0 0 24.625 24.62">
+								<path class="chain" d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"></path>
+              </svg>
+            </a>
+              <a href="">
+                <svg width="25.157" height="24.47" viewBox="0 0 25.157 24.47">
+                  <path id="lupa" class="lupa" d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="projects__text">
+            <h5>Usus Legentis Videntur</h5>
+					<span>Photography, Holiday</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn">load more</button>
+    </div>
+  </section>
+
+    <!-- VIDEO  -->
+
+      <section class="video">
+        
+        <video id="video"  poster="images/keyboard.jpg">
+          <source src="../video/lachutedelaneymp4.mp4" type="video/mp4">
+          </video>
+
+          <div class="video__block">
+            <button id="video__btn" class="i-play"></button>
+            
+              
+            
+            <h3>Waxom Video Presentation</h3>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+            <p>1:59</p>
+          </div>
+            
+             
+          </div>
+      </section>
+
+      <section class="mobile">
+        <div class="container">
+          <div class="mobile__block">
+            <div class="mobile__img">
+              <img src="images/iPhone in hand.jpg" alt="">
+            </div>
+            <div class="mobile__text">
+              <h3>Excellent for Mobile Devices.</h3>
+              <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+              <div class="mobile__title">
+                <p class="mobile__titles i-arrow-round">Nam liber tempor cum soluta nobis eleifend option</p>
+                <p class="mobile__titles i-arrow-round">Option congue nihil imperdiet doming id quod mazim placerat facer</p>
+                <p class="mobile__titles i-arrow-round">Eodem modo typi, qui nunc nobis videntur parum futurum</p>
+                <p class="mobile__titles i-arrow-round">Investigationes demonstraverunt lectores</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="values">
+        <div class="container">
+          <div class="values__block">
+            <div class="value">
+              <p class="i-man el"></p>
+              <p class="number">3587</p>
+              <p>satisfied clients</p>
+            </div>
+            <div class="value">
+              <p class="i-coffee el"></p>
+              <p class="number">207</p>
+              <p>cups of coffee</p>
+            </div>
+            <div class="value">
+              <p class="i-posts el"></p>
+              <p class="number">2500</p>
+              <p>blog posts</p>
+            </div>
+            <div class="value">
+              <p class="i-likes el"></p>
+              <p class="number">873</p>
+              <p>likes</p>
+            </div>
+            <div class="value">
+              <p class="i-launch el"></p>
+              <p class="number">900</p>
+              <p>we launched</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recent">
+        <div class="container">
+          <div class="recent__block">
+            <div class="recent__text">
+              <h3>Recent Posts.</h3>
+              <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+
+            <!-- <div class="recent__carts">
+              <div class="recent__cart">
+                <div class="cart__img"><img src="../images/legs.jpg" alt=""></div>
+                <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+                <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+              </div>
+              <div class="recent__cart">
+                <div class="cart__img"><img src="../images/hands.jpg" alt=""></div>
+                <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+                <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+              </div>
+              <div class="recent__cart">
+                <div class="cart__img"><img src="../images/ship.jpg" alt=""></div>
+                <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+                <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+              </div>
+              <div class="recent__cart">
+                <div class="cart__img"><img src="../images/ship.jpg" alt=""></div>
+                <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+                <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+              </div>
+              <div class="recent__cart">
+                <div class="cart__img"><img src="../images/ship.jpg" alt=""></div>
+                <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+                <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+              </div>
+              
+            </div> -->
+
+
+    
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          
+            <div class="cart__img">
+               <img class="slider__content_img" src="images/legs.jpg" alt="">
+            </div>
+             <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+            
+              
+              
+            
+            <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            </div>
+          
+        </div>
+        <div class="slider__item">
+          
+            
+             <div class="cart__img">
+               <img class="slider__content_img" src="images/hands.jpg" alt="">
+            </div>
+
+            <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+            
+            
+            <div class="slider__content_footer">
+              <div class="cart__text">
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+              
+             
+            </div>
+         
+        
+        <div class="slider__item">
+
+          
+            
+
+              <div class="cart__img">
+               <img class="slider__content_img" src="images/ship.jpg" alt="">
+            </div>
+            <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+            
+            
+           <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            </div>
+          
+        </div>
+        <div class="slider__item">
+          
+            
+            <div class="cart__img">
+               <img class="slider__content_img" src="images/legs.jpg" alt="">
+            </div>
+            <div class="cart__date">
+                  <div class="day"><span>30</span></div>
+                  <div class="month"><span>Sep.</span></div>
+                </div>
+              
+            
+             <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            
+          </div>
+        </div>
+        <div class="slider__item">
+          
+            
+               <div class="cart__img">
+               <img class="slider__content_img" src="images/hands.jpg" alt="">
+            </div>
+            <div class="cart__date">
+              <div class="day"><span>30</span></div>
+              <div class="month"><span>Sep.</span></div>
+            </div>
+            
+            <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__content">
+           
+              <div class="cart__img">
+               <img class="slider__content_img" src="images/legs.jpg" alt="">
+            </div>
+             
+            <div class="cart__date">
+              <div class="day"><span>30</span></div>
+              <div class="month"><span>Sep.</span></div>
+            </div>
+            
+            <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__content">
+            
+            <div class="cart__img">
+               <img class="slider__content_img" src="images/legs.jpg" alt="">
+            </div>
+            <div class="cart__date">
+              <div class="day"><span>30</span></div>
+              <div class="month"><span>Sep.</span></div>
+            </div>
+              
+            
+            <div class="slider__content_footer">
+              <div class="cart__text">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                  <a href="">Read More</a>
+                </div>
+             
+            </div>
+          </div>
+        </div>
+     
+     
+  
+  </div>
+
+
+            <div class="recent__swipe">
+              <div class="slider__control slider__control_left i-arrow-round-1"></div>
+              <div class="slider__control slider__control_right i-arrow-round-1"></div>
+            </div>
+              
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="labels">
+        <div class="container">
+          <div class="labels__block">
+            <div class="label i-barber" ></div>
+            <div class="label i-delicious"></div>
+            <div class="label i-designers"></div>
+            <div class="label i-royal"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer__block">
+            <div class="footer__element">
+              <div class="footer__logo">
+                <div class="footer__logo-element i-logos" >
+            
+                </div>
+                <span class="footer__logo-text">
+                  <a style="color: #fff" href="#">Waxom</a>
+                </span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+              <a id="read" href="">Read more</a>
+            </div>
+            <div class="footer__element">
+              <h5>Recent Posts</h5>
+              <div class="footer__recent-post">
+                <span>September 08, 2015</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+              </div>
+              <div class="footer__recent-post">
+                <span>September 08, 2015</span>
+                <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+              </div>
+              <div class="footer__recent-post">
+                <span>September 08, 2015</span>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+              </div>
+            </div>
+            <div class="footer__element">
+              <h5>Our Twitter</h5>
+              <div class="footer__twitter">
+                <p>
+                  <a href="">@waxom</a>
+                  Cum soluta nobis eleifend option congue nihil imperdiet doming
+                </p>
+                <span>3 mins ago</span>
+              </div>
+              <div class="footer__twitter">
+                <p>Mirum est <a href="">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                <span>5 hours ago</span>
+              </div>
+              <div class="footer__twitter">
+                <p>Soluta nobis option <a id="bit-link" href="">bit.ly/1Hniso7</a></p>
+                <span>20 days ago</span>
+              </div>
+            </div>
+            <div class="footer__element ">
+              <h5>Dribbble Widget</h5>
+              <div class="footer__widgets">
+                <img src="images/footer1.jpg" alt="">
+                <img src="images/footer2.jpg" alt="">
+                <img src="images/footer3.jpg" alt="">
+                <img src="images/footer4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="under">
+        <div class="container">
+          <div class="under__block">
+            <div class="under__copyright">
+              <span>Copyright © 2015<span class="under-span">Waxom</span></span>
+              <a href="#">Privacy Policy</a>
+              <a href="#">FAQ</a>
+              <a href="#">Support</a>
+            </div>
+            <div class="under__designed">
+              <span>Designed by<a>ThemeFire</a></span>
+              <span>Only on<a>Envanto Market</a></span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+
+  <script src="js/app.min.js"></script>
+  
+</body>
+</html>
